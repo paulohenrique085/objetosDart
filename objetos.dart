@@ -1,5 +1,4 @@
 import 'dart:io';
 
-void main() {
-  print("paulo henrique");
-}
+//criando objetos em dart aula 1.2
+void main() {}
