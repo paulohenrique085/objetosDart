@@ -3,8 +3,11 @@
 class Pessoa {
   int idade;
   String nome;
+
 //construtor da class
+//Pessoa({this.idade, this.nome});
   Pessoa(this.idade, this.nome);
+
 //método
   verificacao() {
     if (idade >= 50) {
@@ -16,7 +19,8 @@ class Pessoa {
 }
 
 void main() {
-  Pessoa paulo = Pessoa(50, "paulo");
+  //Pessoa paulo = Pessoa(idade:21, nome:"paulo");
+  Pessoa paulo = Pessoa(21, "paulo");
 
   paulo.verificacao();
 }
